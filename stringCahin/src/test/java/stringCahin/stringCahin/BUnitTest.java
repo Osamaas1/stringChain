@@ -6,7 +6,7 @@ import org.junit.Test;
 public class BUnitTest {
 
     @Test
-    public void testBAddsOnlyBAndSendsCorrectPrefixToC() {
+    public void testBun() {
         // Arrange
         CStub cStub = new CStub();
         B b = new B(cStub);

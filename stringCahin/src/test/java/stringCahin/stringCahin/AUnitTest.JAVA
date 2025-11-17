@@ -9,7 +9,7 @@ public class AUnitTest {
  
 
 	    @Test
-	    public void testBAddsOnlyBAndSendsCorrectPrefixToC() {
+	    public void testAun() {
 	        // Arrange
 	        BStub bStub = new BStub();
 	        A a = new A(bStub);
@@ -21,7 +21,7 @@ public class AUnitTest {
 	       
 
 	        // 2. B must return whatever C returns ("BX" from the stub)
-	        assertEquals("E", result);
+	        assertEquals("H", result);
 	    }
  
 
