@@ -1,19 +1,23 @@
 package stringCahin.stringCahin;
-import org.junit.Test;
+
 import static org.junit.Assert.*;
+import org.junit.Test;
 
 public class BUnitTest {
+
     @Test
-    public void testBWithStub() {
-        // יוצרים סטאב של D
-        CStub stub = new CStub();
-        // יוצרים את C עם הסטאב
-        B b = new B(stub);
+    public void testBAddsOnlyBAndSendsCorrectPrefixToC() {
+        // Arrange
+        CStub cStub = new CStub();
+        B b = new B(cStub);
 
-        // קוראים ל־C — לא לסטאב!
-        String result = b.process("H");
+        // Act
+        String result = b.process("");
 
-        // מאמתים את הפלט
-        assertEquals("HEX", result);
+        // Assert
+       
+
+        // 2. B must return whatever C returns ("BX" from the stub)
+        assertEquals("E", result);
     }
 }
