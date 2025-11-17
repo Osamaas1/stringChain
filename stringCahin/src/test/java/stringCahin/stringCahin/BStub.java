@@ -1,11 +1,10 @@
 package stringCahin.stringCahin;
 
-//Stub for Class B
 public class BStub extends B {
+    public  BStub() {super(null);}
 	
-	public  BStub() {super(null);}
-	@Override
+    @Override
     public String process(String prefix) {
-     return prefix + ""; 
- }
+        return prefix ; // הוספה מדומה
+    }
 }

@@ -1,12 +1,28 @@
 package stringCahin.stringCahin;
+
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Test;
-import static org.junit.Assert.*;
-//Unit Test for Class A
+
 public class AUnitTest {
- @Test
- public void testAWithStub() {
-     BStub bStub = new BStub();
-     A a = new A(bStub);
-     String result = a.process("");
-     assertEquals("H", result);
- } }
+
+ 
+
+	    @Test
+	    public void testBAddsOnlyBAndSendsCorrectPrefixToC() {
+	        // Arrange
+	        BStub bStub = new BStub();
+	        A a = new A(bStub);
+
+	        // Act
+	        String result = a.process("");
+
+	        // Assert
+	       
+
+	        // 2. B must return whatever C returns ("BX" from the stub)
+	        assertEquals("E", result);
+	    }
+ 
+
+}
