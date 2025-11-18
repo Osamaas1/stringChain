@@ -13,10 +13,10 @@ public class Integration_A_BTest {
         A realA = new A(realB);        // real A
 
         
-        // Act: aka
+  
         String result = realA.process("");
 
-        // Assert:
+      
         assertEquals("HE", result);
     }
 }

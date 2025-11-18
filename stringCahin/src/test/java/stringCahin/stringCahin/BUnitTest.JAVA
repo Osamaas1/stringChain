@@ -7,17 +7,14 @@ public class BUnitTest {
 
     @Test
     public void testBun() {
-        // Arrange
+     
         CStub cStub = new CStub();
         B b = new B(cStub);
 
-        // Act
+      
         String result = b.process("");
 
-        // Assert
-       
-
-        // 2. B must return whatever C returns ("BX" from the stub)
+        
         assertEquals("E", result);
     }
 }
