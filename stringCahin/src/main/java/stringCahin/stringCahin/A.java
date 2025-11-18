@@ -1,6 +1,6 @@
 package stringCahin.stringCahin;
 
-//מחלקה A
+//׳�׳—׳�׳§׳” A
 public class A {
  private B next;
 
@@ -9,17 +9,17 @@ public class A {
  }
 
  public String process(String prefix) {
-     String updated = prefix + "H";
-    
-    return next.process(updated);
-     
- }
+	String updated = prefix + "H";
+		    
+	 return next.process(updated);
+		     
+		 }
 }
 
 
 
 
-//מחלקה C
+//׳�׳—׳�׳§׳” C
 
 
 
