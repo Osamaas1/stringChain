@@ -6,5 +6,6 @@ public class BStub extends B {
     @Override
     public String process(String prefix) {
         return prefix ;  
+        
     }
 }
