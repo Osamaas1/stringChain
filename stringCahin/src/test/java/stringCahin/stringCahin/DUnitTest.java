@@ -4,20 +4,20 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-public class AUnitTest {
+public class DUnitTest {
 
  
 
 	    @Test
 	    public void testAun() {
 	      
-	        BStub bStub = new BStub();
-	        A a = new A(bStub);
+	        EStub bStub = new EStub();
+	        D a = new D(bStub);
  
 	        String result = a.process("");
 
 	   
-	        assertEquals("H", result);
+	        assertEquals("L", result);
 	    }
  
 
